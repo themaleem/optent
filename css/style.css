@@ -30,7 +30,7 @@ body {
   font-family: "Muli", sans-serif;
   font-weight: normal;
   font-style: normal;
-  background-color: #000;
+  background-color: #fff;
 }
 
 /* line 25, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
@@ -250,11 +250,11 @@ h3 {
   position: absolute;
   content: "";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0.8+100 */
-  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.4) 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: -webkit-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.4) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.4) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#cc000000',GradientType=0 );
   /* IE6-9 */
@@ -1412,6 +1412,71 @@ h3 {
   display: flex;
   justify-content: flex-end;
 }
+
+
+
+
+
+
+
+
+
+.landing-page{
+  height: 100vh;
+  background-image: url(../bg.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-attachment:  fixed;
+}
+
+.landing-page h3{
+  /* font-family: 'Courier prime', Courier, monospace; */
+  width:100%;
+  letter-spacing: 3px;
+  font-size: 30px;
+  position: relative;
+  padding: 0;
+  text-transform: uppercase;
+  /* font-weight: 100; */
+  color: #39ff14;
+  line-height: 1;
+  margin-top: 40vh;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .landing-page h3{
+    font-size: 19px;
+  }
+  .landing-page p{
+    font-size:12px;
+  }
+}
+
+.note-area {
+  padding: 30px;
+}
+
+.note-area h4{
+  color:#39ff14;
+  letter-spacing:2px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  border-bottom: 2px solid rgba(192, 182, 182, 0.959);
+}
+
+.note-area h5{
+  color:#000;
+  font-size: 30px;
+  padding-top:10px;
+  text-transform: uppercase;
+}
+
+.note-area p{
+  color:#000;
+  opacity: 0.8;
+}
+
 
 /* line 334, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
 .header-area .search_btn i {
