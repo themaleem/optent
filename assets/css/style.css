@@ -552,12 +552,17 @@ div.sponsor {
 
 .landing-page{
   height: 100vh;
-  background-image: url(../bg-2.jpg);
+  background-image: url(../bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment:  fixed; */
 }
 
+@media (max-width: 767px){
+  .landing-page{
+    background-image: url(../bg-2.jpg);
+  }  
+}
 
 
 .landing-page h3{
