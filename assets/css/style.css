@@ -323,7 +323,6 @@ h3 {
   font-size: 30px;
   font-weight: 400;
   color: #39ff14;
-  /* font-family: "courier prime", Monospace; */
   margin-bottom: 0;
 }
 
@@ -343,7 +342,25 @@ h3 {
   top: 0;
   z-index: 99;
   position: absolute;
+  /* background-color: #000; */
 }
+
+header .center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+/* 
+@media (min-width: 991px) and (max-width: 1200px) {
+
+  header .center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+} */
+
 
 @media (max-width: 767px) {
 
@@ -360,8 +377,8 @@ h3 {
 }
 
 .header-area .main-header-area {
-  background: transparent;
-  padding-top: 28px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 @media (max-width: 767px) {
@@ -438,7 +455,6 @@ h3 {
 
 
 .header-area .main-header-area.sticky {
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   top: -70px;
@@ -451,49 +467,6 @@ h3 {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   padding: 0px 0px;
   background: #000;
-}
-
-@media (max-width: 767px) {
-  
-  .header-area .main-header-area.sticky {
-    padding: 10px 10px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  
-  .header-area .main-header-area.sticky {
-    padding: 10px 10px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  
-  .header-area .main-header-area.sticky {
-    padding-top: 0px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  
-  .header-area .main-header-area.sticky {
-    padding-top: 0px;
-  }
-}
-
-
-.header-area .main-header-area.sticky .main-menu {
-  padding: 0;
-}
-
-
-.header-area .main-header-area.sticky .header_bottom_border {
-  border-bottom: none;
-}
-
-
-.header-area .main-header-area.sticky .header_bottom_border.white_border {
-  border-bottom: none !important;
 }
 
 
@@ -720,7 +693,71 @@ div.sponsor {
   color:#000;
 }
 
+/* mailchimp section */
 
+.box {
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px #3fec0a;
+  background-color: #fff;
+  padding: 35px;
+  border-radius: .25rem;
+  text-align: center;
+}
+
+
+.box h1 {
+  color: #000;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.box input {
+  border: 1px solid rgb(220, 219, 235);
+  border-radius: 4px;
+  font-size: 13px;
+  padding: 10px;
+  color: #000;
+  transition: all .15s ease-in;
+}
+
+.box input[type=email] {
+  width: 60%;
+}
+
+.box input[type=submit] {
+  background-color:#000;
+  color: #39ff14;
+  font-weight: bold;
+  border: 1px solid transparent;
+}
+
+.box input[type=submit]::focus {
+  border: 1px solid #fff;
+}
+
+.box input:focus {
+  border-color:#39ff14;
+  box-shadow: 0px 0px 8px 2px rgba(82, 228, 37, 0.5);
+  outline: none;
+}
+
+.box input::placeholder {
+  color: #999;
+}
+
+.box #subscribe-result p {
+  margin-top: 35px;
+}
 
 
 

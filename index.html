@@ -12,17 +12,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- Place favicon.ico in the root directory -->
 
-    <!-- CSS here -->
-    <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
 
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <script src="https://kit.fontawesome.com/e6b819aa57.js" crossorigin="anonymous"></script>
   </head>
     <style>
     .active{
@@ -78,14 +68,13 @@
     </div>
 
     <!-- header-start -->
-    <div class= "neon">
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid">
                     <div class="header_bottom_border">
                         <div class="row align-items-center">
-                            <div class="col-sm-6 offset-sm-3 col-md-6 offset-md-3 col-lg-6 offset-lg-6 ">
+                            <div class="center">
                                 <div class="logo">
                                     <a href="#">
                                         <!-- <h3 style="color:white;">Logo stays here</h3> -->
@@ -167,9 +156,33 @@
                             </div>
                         </div>
                         <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
+                            <div class="panel-heading" role="tab" id="headingFive">
                                 <h4 class="panel-title wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Event Coverage
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="headingFive">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="panel-body">
+                                            <p>
+                                                Missing an important moment is not in our vocabulary. 
+                                                Our Video and Photo Coverage guarantees a professional and dedicated eye in capturing the best highlights of your event. Our event  portfolio coverage includes Music concerts, Fashion shows, Weddings, Corporate events amongst other events.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <a class="collapsed seconds" role="button" data-toggle="collapse" data-parent="#accordion"
                                         href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         Artiste Promotion
                                         <i class="fas fa-angle-down"></i>
@@ -238,7 +251,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingThree">
                                 <h4 class="panel-title wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <a class="collapsed seconds" role="button" data-toggle="collapse" data-parent="#accordion"
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                         href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                                         Tickets
                                         <i class="fas fa-angle-down"></i>
@@ -389,6 +402,25 @@
         <br><br>    
     </div>
     <!-- /feed a mouth ends -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="box">
+                    <h1>Please Subscribe to our newsletter to get firsthand information about any of our upcoming event </h1>
+            
+                    <form
+                        action="https://optimizeentertainment.us19.list-manage.com/subscribe/post-json?u=447c3975073d5bff4eeafa350&amp;id=a42500d9ee&c=?"
+                        method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="name@example.com" required>
+                        
+                        <input type="submit" value="Subscribe!" name="subscribe" id="mc-embedded-subscribe" class="mc-button">
+                        <div id="subscribe-result">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <!-- contact section -->
     <div class="contact-section">
@@ -471,15 +503,28 @@
         </div>
     </footer>
     <!-- footer_end  -->
+        <!-- CSS here -->
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://kit.fontawesome.com/e6b819aa57.js" crossorigin="anonymous"></script>
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/mailchimp.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
 
     <script src="assets/js/main.js"></script>
+
 </div>
 </body>
 
