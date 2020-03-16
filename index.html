@@ -11,54 +11,54 @@
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 
-  </head>
-    <style>
-    .active{
-        color: #39ff14;
-    }
+</head>
+<style>
+
     .preeloader {
-    background: rgb(0, 0, 0) none repeat scroll 0 0;
-    height: 100%;
-    position: fixed;
-    width: 100%;
-    z-index: 999999;
-}
+        background: rgb(0, 0, 0) none repeat scroll 0 0;
+        height: 100%;
+        position: fixed;
+        width: 100%;
+        z-index: 999999;
+    }
 
-.preloader-spinner {
-    -webkit-animation: 1s ease-out 0s normal none infinite running pulsate;
-    animation: 1s ease-out 0s normal none infinite running pulsate;
-    border: 5px solid #39ff14;
-    border-radius: 40px;
-    display: block;
-    height: 40px;
-    left: 50%;
-    margin: -20px 0 0 -20px;
-    opacity: 0;
-    position: fixed;
-    top: 50%;
-    width: 40px;
-    z-index: 10;
-}
-
-@keyframes pulsate {
-    0% {
+    .preloader-spinner {
+        -webkit-animation: 1s ease-out 0s normal none infinite running pulsate;
+        animation: 1s ease-out 0s normal none infinite running pulsate;
+        border: 5px solid #39ff14;
+        border-radius: 40px;
+        display: block;
+        height: 40px;
+        left: 50%;
+        margin: -20px 0 0 -20px;
         opacity: 0;
-        -webkit-transform: scale(0.1);
-        transform: scale(0.1);
+        position: fixed;
+        top: 50%;
+        width: 40px;
+        z-index: 10;
     }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-}
 
-    </style>
+    @keyframes pulsate {
+        0% {
+            opacity: 0;
+            -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+    }
+</style>
 </head>
 
 <body>
@@ -111,7 +111,6 @@
     </div>
     
     <!-- start of accordions -->
-
     <div class="demo">
         <div class="container">
             <div class="row">
@@ -169,7 +168,7 @@
                                 aria-labelledby="headingFive">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                                        <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
                                                     <img class="d-block w-100" src="assets/img/coverage/ec1.jpeg" alt="First slide">
@@ -184,11 +183,11 @@
                                                     <img class="d-block w-100" src="assets/img/coverage/ec4.jpeg" alt="Fourth slide">
                                                 </div>
                                             </div>
-                                            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                                            <a class="carousel-control-prev" href="#carouselExampleFade1" role="button" data-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                                 <span class="sr-only">Previous</span>
                                             </a>
-                                            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                                            <a class="carousel-control-next" href="#carouselExampleFade1" role="button" data-slide="next">
                                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                                 <span class="sr-only">Next</span>
                                             </a>
@@ -219,7 +218,7 @@
                                 aria-labelledby="headingThree">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                                        <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
                                                     <img class="d-block w-100" src="assets/img/artist-promo/2.jpg" alt="First slide">
@@ -252,11 +251,11 @@
                                                     <img class="d-block w-100" src="assets/img/artist-promo/10.jpg" alt="Third slide">
                                                 </div>
                                             </div>
-                                            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                                            <a class="carousel-control-prev" href="#carouselExampleFade2" role="button" data-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                                 <span class="sr-only">Previous</span>
                                             </a>
-                                            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                                            <a class="carousel-control-next" href="#carouselExampleFade2" role="button" data-slide="next">
                                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                                 <span class="sr-only">Next</span>
                                             </a>
@@ -428,10 +427,41 @@
         <br><br>    
     </div>
     <!-- /feed a mouth ends -->
+    <div class="gallery">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section_title text-center">
+                    <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" >Gallery</h3>
+                </div>
+            </div>
+        </div>
+        <section id="gallery" class="wow fadeInUp">
+            <div class="owl-carousel gallery-carousel">
+                <a href="assets/img/gallery/pp1.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/pp1.jpg" alt=""></a>
+                <a href="assets/img/gallery/pp2.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/pp2.jpg" alt=""></a>
+                <a href="assets/img/gallery/pp4.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/pp4.jpg" alt=""></a>
+                <a href="assets/img/gallery/pp5.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/pp5.jpg" alt=""></a>
+                <a href="assets/img/gallery/pp6.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/pp6.jpg" alt=""></a>
+                <a href="assets/img/gallery/pp7.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/pp7.jpg" alt=""></a>
+                <a href="assets/img/gallery/pp8.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/pp8.jpg" alt=""></a>
+                <a href="assets/img/gallery/pp3.jpg" class="venobox" data-gall="gallery-carousel"><img
+                        src="assets/img/gallery/pp3.jpg" alt=""></a>
+            </div>
+        </section>
+    
+    </div>
+    <!-- End Gallery Section -->
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="box">
+                <div class="box wow fadeInDown" data-wow-duration="1.5s" data-wow-delay=".3s">
                     <h1>Please Subscribe to our newsletter to get firsthand information about any of our upcoming event </h1>
             
                     <form
@@ -529,28 +559,32 @@
         </div>
     </footer>
     <!-- footer_end  -->
-        <!-- CSS here -->
+    <!-- CSS here -->
     <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-
-
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <script src="https://kit.fontawesome.com/e6b819aa57.js" crossorigin="anonymous"></script>
+<link href="assets/venobox.css" rel="stylesheet">
+  <link href="assets/owl.carousel.min.css" rel="stylesheet">
+  <!-- Vendor JS Files -->
+  
+  
+  <!-- JS here -->
+  <script src="https://kit.fontawesome.com/e6b819aa57.js" crossorigin="anonymous"></script>
+  <script src="assets/js/vendor/jquery.min.js"></script>
+  <script src="assets/js/mailchimp.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  
+  <script src="assets/venobox.min.js"></script>
+  <script src="assets/owl.carousel.min.js"></script>
 
-    <!-- JS here -->
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/mailchimp.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-
-    <script src="assets/js/main.js"></script>
-
+  <!-- Template Main JS File -->
+  <script src="assets/js/gallery.js"></script>
+  <script src="assets/js/main.js"></script>
+  
 </div>
 </body>
 
