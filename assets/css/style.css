@@ -343,7 +343,6 @@ h3 {
   }
 }
 
-
 .section_title p {
   font-size: 20px;
   color: #39ff14;
@@ -495,60 +494,7 @@ h3 {
   background: #000;
 }
 
-
-
-
-
-
-div.sponsor {
-  position: relative;
-  background-color: black;
-  height: 85vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-.sponsor video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.sponsor .container {
-  position: relative;
-  z-index: 2;
-}
-
-.sponsor .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
-}
-.sponsor h1{
-  color:white;
-  text-transform: uppercase;
-}
-.sponsor p a{
-  color:#39ff14;
-}
-
-
-
+/* LANDING PAGE AREA */
 .landing-page{
   height: 100vh;
   background-image: url(../bg.jpg);
@@ -562,7 +508,6 @@ div.sponsor {
     background-image: url(../bg-2.jpg);
   }  
 }
-
 
 .landing-page h3{
   width:100%;
@@ -587,6 +532,7 @@ div.sponsor {
   }
 }
 
+/* NOTE AREA */
 .note-area {
   padding: 30px;
   padding-bottom: 0px;
@@ -612,9 +558,11 @@ div.sponsor {
   opacity: 0.8;
 }
 
+/* ACCORDIONS AREA */
 .demo{
   margin-top: 50px;
 }
+
 .demo a:hover,
 .demo a:focus {
     text-decoration: none;
@@ -704,6 +652,55 @@ div.sponsor {
   }
 }
 
+/* SPONSOR WITH US AREA */
+div.sponsor {
+  position: relative;
+  background-color: black;
+  height: 85vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sponsor video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.sponsor .container {
+  position: relative;
+  z-index: 2;
+}
+
+.sponsor .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+.sponsor h1{
+  color:white;
+  text-transform: uppercase;
+}
+.sponsor p a{
+  color:#39ff14;
+}
+
+/* FEED A MOUTH AREA */
 .feed-a-mouth-area{
   padding-top: 75px;
 }
@@ -712,15 +709,57 @@ div.sponsor {
   font-size: 14px;
 }
 
-.contact-section {
-  background-color:#fff; 
+
+/* GALLERY AREA */
+#gallery {
+  padding: 20px;
+  overflow: hidden;
 }
-.contact-section h3{
-  color:#000;
+
+#gallery .owl-nav, #gallery .owl-dots {
+  margin-top: 25px;
+  text-align: center;
+}
+
+#gallery .owl-item {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+#gallery .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+#gallery .owl-dot.active {
+  background-color: #39ff14;
+}
+
+#gallery .gallery-carousel .owl-stage-outer {
+  overflow: visible;
+}
+
+#gallery .gallery-carousel .center {
+  border: 6px solid #39ff14;
+  margin: -10px;
+  box-sizing: content-box;
+  padding: 4px;
+  background: #fff;
+  z-index: 1;
+}
+    .active {
+        color: #39ff14;
+    }
+
+.gallery h3{
+  color: #000;
 }
 
 /* mailchimp section */
-
 .box {
   margin-top: 20px;
   box-shadow: 0px 0px 10px #3fec0a;
@@ -785,106 +824,13 @@ div.sponsor {
   margin-top: 35px;
 }
 
-
-/*--------------------------------------------------------------
-# Gallery Section
---------------------------------------------------------------*/
-#gallery {
-  padding: 20px;
-  overflow: hidden;
+/* CONTACT AREA */
+.contact-section {
+  background-color:#fff; 
 }
-
-#gallery .owl-nav, #gallery .owl-dots {
-  margin-top: 25px;
-  text-align: center;
+.contact-section h3{
+  color:#000;
 }
-
-#gallery .owl-item {
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
-}
-
-#gallery .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #000;
-}
-
-#gallery .owl-dot.active {
-  background-color: #39ff14;
-}
-
-#gallery .gallery-carousel .owl-stage-outer {
-  overflow: visible;
-}
-
-#gallery .gallery-carousel .center {
-  border: 6px solid #39ff14;
-  margin: -10px;
-  box-sizing: content-box;
-  padding: 4px;
-  background: #fff;
-  z-index: 1;
-}
-    .active {
-        color: #39ff14;
-    }
-
-.gallery h3{
-  color: #000;
-}
-
-
-
-
-
-
-
-
-.footer {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: #000000;
-  position: relative;
-  z-index: 9;
-}
-
-.footer .copy-right_text {
-  padding-bottom: 5px;
-}
-
-
-.footer .copy-right_text .copy_right {
-  font-size: 14px;
-  color: #39ff13;
-  margin-bottom: 0;
-  font-weight: 400;
-  font-family: "Muli", sans-serif;
-}
-
-@media (max-width: 767px) {
-  
-  .footer .copy-right_text .copy_right {
-    font-size: 14px;
-  }
-}
-
-
-.footer p.rights {
-  font-size: 14px;
-}
-.footer .rights a {
-  font-family: 'Courier prime', Courier, monospace;
-  color: #39ff14;
-}
-
-/*=================== contact banner start ====================*/
-
 .contact-info {
   margin-bottom: 25px;
 }
@@ -939,6 +885,46 @@ div.sponsor {
     padding: 80px 0 50px;
   }
 }
+
+/* FOOTER AREA */
+.footer {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #000000;
+  position: relative;
+  z-index: 9;
+}
+
+.footer .copy-right_text {
+  padding-bottom: 5px;
+}
+
+.footer .copy-right_text .copy_right {
+  font-size: 14px;
+  color: #39ff13;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-family: "Muli", sans-serif;
+}
+
+@media (max-width: 767px) {
+  
+  .footer .copy-right_text .copy_right {
+    font-size: 14px;
+  }
+}
+
+.footer p.rights {
+  font-size: 14px;
+}
+.footer .rights a {
+  font-family: 'Courier prime', Courier, monospace;
+  color: #39ff14;
+}
+
+/* OTHER FIXES */
 h1 {
   font-size: 36px;
 }
