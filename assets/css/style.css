@@ -497,7 +497,7 @@ h3 {
 /* LANDING PAGE AREA */
 .landing-page{
   height: 100vh;
-  background-image: url(../bg.jpg);
+  background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment:  fixed; */
@@ -505,7 +505,7 @@ h3 {
 
 @media (max-width: 767px){
   .landing-page{
-    background-image: url(../bg-2.jpg);
+    background-image: url(../img/bg-2.jpg);
   }  
 }
 
