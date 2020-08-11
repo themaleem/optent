@@ -9,7 +9,7 @@ $(document).ready(function () {
   })
   
   function register($form) {
-    $('#mc-embedded-subscribe').val('Joining the family...');
+    $('#mc-embedded-subscribe').val('Joining the family 🥳...');
     $.ajax({
       type: $form.attr('method'),
       url: $form.attr('action'),
@@ -19,13 +19,13 @@ $(document).ready(function () {
       contentType: 'application/json; charset=utf-8',
       error: function (err) { alert('Could not connect to the registration server. Please try again later.') },
       success: function (data) {
-        $('#mc-embedded-subscribe').val('Subscribe!')
+        $('#mc-embedded-subscribe').val('Join! 🚀')
         if (data.result === 'success') {
           // Yeahhhh Success
           console.log(data.msg)
           $('#mce-EMAIL').css('borderColor', '#ffffff')
           $('#subscribe-result').css('color', 'rgb(53, 114, 210)')
-          $('#subscribe-result').html('<p>Thank you for subscribing!💚🖤. <br> Juicy contents only, we promise to not spam. </p>')
+          $('#subscribe-result').html('<p>Thank you for subscribing!💚🖤. <br> Juicy contents only. You\'re gonna love us! 🎇 </p>')
           $('#mce-EMAIL').val('')
         } else {
           // Something went wrong, do something to notify the user.
