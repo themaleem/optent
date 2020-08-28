@@ -12,6 +12,10 @@
 /* Tablet desktop :768px. */
 /* small mobile :320px. */
 /* Large Mobile :480px. */
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Muli", sans-serif;
   font-weight: normal;
@@ -959,4 +963,19 @@ h6 {
 
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.main-btn {
+  display: inline-block;
+  padding: 11.5px 21px;
+  background: #39ff14;
+  color: #000;
+  text-transform: uppercase;
+  border: none;
+  font-size: 200;
+  -webkit-transition: 0.3s all;
+  transition: 0.8s all;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-weight: 500;
 }
