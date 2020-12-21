@@ -701,6 +701,23 @@ div.sponsor {
   font-size: 14px;
 }
 
+@media only screen and (min-width: 767px) {
+  .feed-a-mouth-area p.about_info {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+a.reserve {
+  color: #39ff13;
+  text-decoration: none;
+}
+
+a.reserve:hover {
+  color: orange;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
 /* GALLERY AREA */
 #gallery {
   padding: 20px;
