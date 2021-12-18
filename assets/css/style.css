@@ -353,6 +353,11 @@ h3 {
   font-family: "courier prime", Monospace;
 }
 
+ span.lemonize {
+  color: #39ff14;
+  font-family: "courier prime", Monospace;
+}
+
 @media (max-width: 767px) {
   .section_title p br {
     display: none;
